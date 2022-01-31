@@ -16,16 +16,28 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('EastPen', 'https://www.eastpennmanufacturing.com/'),
+    ('Navitas Systems', 'https://www.navitassys.com/'),
+    ('Smartsheets', 'https://app.smartsheet.com/'),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+##SOCIAL = (('You can add links in your config file', '#'), ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+ARTICLE_PATHS = ['articles','pages']
+ARTICLE_URL = 'articles/{slug}.html'
+ARTICLE_SAVE_AS = 'articles/{slug}.html'
+#STATIC CONFIGURATION
+STATIC_PATHS = ['pdfs']
+
+##PAGE_ORDER_BY = 'reversed-order'
+##ARTICLE_ORDER_BY = 'reversed-order'
+PAGE_ORDER_BY = 'order'
+ARTICLE_ORDER_BY = 'order'
+DISPLAY_PAGES_ON_MENU = False
+USE_FOLDER_AS_CATEGORY = False
