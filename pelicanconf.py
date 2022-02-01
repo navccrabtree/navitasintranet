@@ -41,3 +41,5 @@ PAGE_ORDER_BY = 'order'
 ARTICLE_ORDER_BY = 'order'
 DISPLAY_PAGES_ON_MENU = False
 USE_FOLDER_AS_CATEGORY = False
+
+IGNORE_FILES = ['archive*']
