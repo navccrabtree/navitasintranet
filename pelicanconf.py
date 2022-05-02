@@ -33,7 +33,7 @@ ARTICLE_PATHS = ['articles','pages']
 ARTICLE_URL = 'articles/{slug}.html'
 ARTICLE_SAVE_AS = 'articles/{slug}.html'
 #STATIC CONFIGURATION
-STATIC_PATHS = ['pdfs']
+STATIC_PATHS = ['pdfs','ppt']
 
 ##PAGE_ORDER_BY = 'reversed-order'
 ##ARTICLE_ORDER_BY = 'reversed-order'
